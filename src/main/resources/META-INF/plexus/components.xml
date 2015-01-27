@@ -1,0 +1,15 @@
+<component-set>
+	<components>
+		<component>
+			<role>mizdebsk.plexus.hello.Hello</role>
+			<role-hint>default</role-hint>
+			<implementation>mizdebsk.plexus.hello.Hello</implementation>
+			<requirements>
+				<requirement>
+					<role>org.codehaus.plexus.logging.Logger</role>
+					<field-name>logger</field-name>
+				</requirement>
+			</requirements>
+		</component>
+	</components>
+</component-set>
